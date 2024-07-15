@@ -1,0 +1,342 @@
+{
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.56\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "gym4343544882298369.png",
+            "path": "gym4343544882298369.png",
+            "type": 100
+          },
+          {
+            "name": "saude6765817450591831.png",
+            "path": "saude6765817450591831.png",
+            "type": 100
+          },
+          {
+            "name": "vitamina41784404142617126.png",
+            "path": "vitamina41784404142617126.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "health",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "2ee80b933370d704e08a",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0dfd08b5947c4d5c80d3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":152.31611919797652,\"y\":21.95547664114977,\"z\":2000,\"width\":252.48798137322234,\"height\":74.09973366388047,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Food Data\",\"textStyle\":{\"fontFamily\":\"Lucida Sans Unicode\",\"fontSize\":\"32pt\",\"color\":\"#30011e\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 74.10,
+          "width": 252.49,
+          "x": 152.32,
+          "y": 21.96,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"3cfa67998e01b706b789\",\"layouts\":[{\"id\":0,\"position\":{\"x\":694.5689037497015,\"y\":114.9462622402675,\"z\":9000,\"width\":544.1604967757345,\"height\":311.8223071411512,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Food-All-Data.food\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Food-All-Data.Sugars)\"},{\"queryRef\":\"Sum(Food-All-Data.Water)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"},\"Name\":\"Food-All-Data.food\",\"NativeReferenceName\":\"food\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Sugars\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Sugars)\",\"NativeReferenceName\":\"Sugars\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Water\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Water)\",\"NativeReferenceName\":\"Water\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Sugars\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Food-All-Data.Sugars)\":{\"displayName\":\"Sugars\"},\"Sum(Food-All-Data.Water)\":{\"displayName\":\"Water\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EDD2E0'\"}}}}}},\"selector\":{\"metadata\":\"Sum(Food-All-Data.Sugars)\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#114B5F'\"}}}}}},\"selector\":{\"metadata\":\"Sum(Food-All-Data.Water)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sugars and Water Per Food'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 311.82,
+          "width": 544.16,
+          "x": 694.57,
+          "y": 114.95,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"7e847400ac670d373850\",\"layouts\":[{\"id\":0,\"position\":{\"x\":113.72342966324338,\"y\":443.8882254597564,\"z\":7000,\"width\":1125.0059708621925,\"height\":261.6861714831622,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Food-All-Data.food\"},{\"queryRef\":\"Sum(Food-All-Data.Water)\"},{\"queryRef\":\"Sum(Food-All-Data.Sugars)\"},{\"queryRef\":\"Sum(Food-All-Data.Sodium)\"},{\"queryRef\":\"Sum(Food-All-Data.Saturated Fats)\"},{\"queryRef\":\"Sum(Food-All-Data.Phosphorus)\"},{\"queryRef\":\"Sum(Food-All-Data.Potassium)\"},{\"queryRef\":\"Sum(Food-All-Data.Iron)\"},{\"queryRef\":\"Sum(Food-All-Data.Monounsaturated Fats)\"},{\"queryRef\":\"Sum(Food-All-Data.Dietary Fiber)\"},{\"queryRef\":\"Sum(Food-All-Data.Cholesterol)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"},\"Name\":\"Food-All-Data.food\",\"NativeReferenceName\":\"food\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Water\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Water)\",\"NativeReferenceName\":\"Soma de Water\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Sugars\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Sugars)\",\"NativeReferenceName\":\"Soma de Sugars\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Sodium\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Sodium)\",\"NativeReferenceName\":\"Soma de Sodium\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Saturated Fats\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Saturated Fats)\",\"NativeReferenceName\":\"Soma de Saturated Fats\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Phosphorus\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Phosphorus)\",\"NativeReferenceName\":\"Soma de Phosphorus\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Potassium\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Potassium)\",\"NativeReferenceName\":\"Soma de Potassium\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Iron\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Iron)\",\"NativeReferenceName\":\"Soma de Iron\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Monounsaturated Fats\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Monounsaturated Fats)\",\"NativeReferenceName\":\"Soma de Monounsaturated Fats\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Dietary Fiber\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Dietary Fiber)\",\"NativeReferenceName\":\"Soma de Dietary Fiber\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Cholesterol\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Cholesterol)\",\"NativeReferenceName\":\"Soma de Cholesterol\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Water\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 261.69,
+          "width": 1125.01,
+          "x": 113.72,
+          "y": 443.89,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"82d606c7174d504d01b7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16.466607480862326,\"y\":115.26625236603628,\"z\":5000,\"width\":65.8664299234493,\"height\":57.63312618301814,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"vitamina41784404142617126.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'5bb53056e03842461c42'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 57.63,
+          "width": 65.87,
+          "x": 16.47,
+          "y": 115.27,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"b6dced6d3d4e08685007\",\"layouts\":[{\"id\":0,\"position\":{\"x\":113.89403507596442,\"y\":12.349955610646745,\"z\":0,\"width\":1125.2181778589256,\"height\":83.7052546943835,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Food Data'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#243E36'\"}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"heading\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 83.71,
+          "width": 1125.22,
+          "x": 113.89,
+          "y": 12.35,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"e3d5bb0de73ad202e6e6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.605521030503024,\"y\":12.349955610646745,\"z\":1000,\"width\":78.21638553409605,\"height\":692.9697314862896,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"80D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 692.97,
+          "width": 78.22,
+          "x": 9.61,
+          "y": 12.35,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"e702d58ac5e91c293a0d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":113.72342966324338,\"y\":114.9462622402675,\"z\":8000,\"width\":538.0463338906138,\"height\":311.8223071411512,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Food-All-Data.Saturated Fats)\"},{\"queryRef\":\"Sum(Food-All-Data.Polyunsaturated Fats)\"},{\"queryRef\":\"Sum(Food-All-Data.Monounsaturated Fats)\"}],\"Category\":[{\"queryRef\":\"Food-All-Data.food\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Saturated Fats\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Saturated Fats)\",\"NativeReferenceName\":\"Saturated\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Polyunsaturated Fats\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Polyunsaturated Fats)\",\"NativeReferenceName\":\"Polyunsaturated\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"},\"Name\":\"Food-All-Data.food\",\"NativeReferenceName\":\"food\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Monounsaturated Fats\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Monounsaturated Fats)\",\"NativeReferenceName\":\"Monounsaturated\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Saturated Fats\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Food-All-Data.Saturated Fats)\":{\"displayName\":\"Saturated\"},\"Sum(Food-All-Data.Polyunsaturated Fats)\":{\"displayName\":\"Polyunsaturated\"},\"Sum(Food-All-Data.Monounsaturated Fats)\":{\"displayName\":\"Monounsaturated\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}},\"showTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'BottomCenter'\"}}}}}],\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"lineStyles\":[{\"properties\":{\"lineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'solid'\"}}},\"strokeLineJoin\":{\"expr\":{\"Literal\":{\"Value\":\"'miter'\"}}},\"lineChartType\":{\"expr\":{\"Literal\":{\"Value\":\"'linear'\"}}},\"strokeWidth\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}},\"strokeTransparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}},{\"properties\":{\"lineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'solid'\"}}},\"strokeWidth\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}},\"selector\":{\"metadata\":\"Sum(Food-All-Data.Saturated Fats)\"}},{\"properties\":{\"lineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'dashed'\"}}},\"strokeWidth\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}},\"selector\":{\"metadata\":\"Sum(Food-All-Data.Polyunsaturated Fats)\"}},{\"properties\":{\"lineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'dotted'\"}}},\"strokeWidth\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}},\"strokeAutoScale\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"metadata\":\"Sum(Food-All-Data.Monounsaturated Fats)\"}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F46036'\"}}}}}},\"selector\":{\"metadata\":\"Sum(Food-All-Data.Monounsaturated Fats)\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#243E36'\"}}}}}},\"selector\":{\"metadata\":\"Sum(Food-All-Data.Polyunsaturated Fats)\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F4E285'\"}}}}}},\"selector\":{\"metadata\":\"Sum(Food-All-Data.Saturated Fats)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Top 30 - Saturated X Polyunsaturated  X Monounsaturated Fats'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Food-All-Data\"}},\"Property\":\"food\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Saturated Fats\"}},\"Function\":0}}}],\"Top\":30}}},\"Type\":2},{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 311.82,
+          "width": 538.05,
+          "x": 113.72,
+          "y": 114.95,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"eed65e964167e3c1c074\",\"layouts\":[{\"id\":0,\"position\":{\"x\":966.0409722105899,\"y\":19.211042061006047,\"z\":3000,\"width\":222.2992009916414,\"height\":69.9830817936649,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Food-All-Data.food\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"},\"Name\":\"Food-All-Data.food\",\"NativeReferenceName\":\"food\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Food'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"92D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.98,
+          "width": 222.30,
+          "x": 966.04,
+          "y": 19.21,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"facd7e3cb88a878816ec\",\"layouts\":[{\"id\":0,\"position\":{\"x\":17.83882477093419,\"y\":204.46037622070722,\"z\":6000,\"width\":64.49421263337744,\"height\":64.49421263337744,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"gym4343544882298369.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'e4580b867659144a65e3'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 64.49,
+          "width": 64.49,
+          "x": 17.84,
+          "y": 204.46,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"fc8a6b5db707916cc76b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":21.95547664114977,\"y\":30.188780381580933,\"z\":4000,\"width\":57.63312618301814,\"height\":59.00534347309001,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"saude6765817450591831.png\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"50D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'BottomLeft'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 59.01,
+          "width": 57.63,
+          "x": 21.96,
+          "y": 30.19,
+          "z": 4000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "vitamins",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "5bb53056e03842461c42",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0de1723fd563153e1ad0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":708.06412167708,\"y\":20.58325935107791,\"z\":8000,\"width\":222.2992009916414,\"height\":69.9830817936649,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Col_names.ColunaNome\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Col_names\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"ColunaNome\"},\"Name\":\"Col_names.ColunaNome\",\"NativeReferenceName\":\"ColunaNome\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Col_names\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"ColunaNome\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Vitamin A'\"}}]]}}}]}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Vitamin'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"92D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.98,
+          "width": 222.30,
+          "x": 708.06,
+          "y": 20.58,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"1ae41ff1924d4e3962d3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16.466607480862326,\"y\":115.26625236603628,\"z\":5000,\"width\":65.8664299234493,\"height\":57.63312618301814,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"vitamina41784404142617126.png\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"50D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'BottomLeft'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 57.63,
+          "width": 65.87,
+          "x": 16.47,
+          "y": 115.27,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"27b81a960709c3c2d0c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":152.31611919797652,\"y\":21.95547664114977,\"z\":2000,\"width\":252.48798137322234,\"height\":74.09973366388047,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Food Data\",\"textStyle\":{\"fontFamily\":\"Lucida Sans Unicode\",\"fontSize\":\"32pt\",\"color\":\"#30011e\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 74.10,
+          "width": 252.49,
+          "x": 152.32,
+          "y": 21.96,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"2b51a2fa795ab01c8419\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.605521030503024,\"y\":12.349955610646745,\"z\":1000,\"width\":78.21638553409605,\"height\":692.9697314862896,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"80D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 692.97,
+          "width": 78.22,
+          "x": 9.61,
+          "y": 12.35,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"4b2b9a1481092d22b95b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":21.95547664114977,\"y\":30.188780381580933,\"z\":4000,\"width\":57.63312618301814,\"height\":59.00534347309001,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"saude6765817450591831.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'2ee80b933370d704e08a'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 59.01,
+          "width": 57.63,
+          "x": 21.96,
+          "y": 30.19,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"8ccffb0075549a252ac7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":966.0409722105899,\"y\":19.211042061006047,\"z\":3000,\"width\":222.2992009916414,\"height\":69.9830817936649,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Food-All-Data.food\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"},\"Name\":\"Food-All-Data.food\",\"NativeReferenceName\":\"food\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Food'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"92D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.98,
+          "width": 222.30,
+          "x": 966.04,
+          "y": 19.21,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"8ea4c778524e7b4bdd98\",\"layouts\":[{\"id\":0,\"position\":{\"x\":113.89403507596442,\"y\":133.10507713697046,\"z\":7000,\"width\":1125.2181778589256,\"height\":553.0035678989598,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Values\":[{\"queryRef\":\"Food-All-Data.Vitamins_types\"}],\"Group\":[{\"queryRef\":\"Food-All-Data.food\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Vitamins_types\"},\"Name\":\"Food-All-Data.Vitamins_types\",\"NativeReferenceName\":\"Vitamins_types\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"},\"Name\":\"Food-All-Data.food\",\"NativeReferenceName\":\"food\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Food-All-Data\"}},\"Property\":\"Vitamins_types\"}},\"FillRule\":{\"linearGradient3\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#cccccc'\"}}},\"mid\":{\"color\":{\"Literal\":{\"Value\":\"'#114B5F'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#243E36'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"categoryLabels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Vitamins Per Food'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Food-All-Data\"}},\"Property\":\"food\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Vitamins_types\"}}}],\"Top\":25}}},\"Type\":2},{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{}}]},\"isHiddenInViewMode\":false}]",
+          "height": 553.00,
+          "width": 1125.22,
+          "x": 113.89,
+          "y": 133.11,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"dfdc3ce792420c70b926\",\"layouts\":[{\"id\":0,\"position\":{\"x\":17.83882477093419,\"y\":204.46037622070722,\"z\":6000,\"width\":64.49421263337744,\"height\":64.49421263337744,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"gym4343544882298369.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'e4580b867659144a65e3'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 64.49,
+          "width": 64.49,
+          "x": 17.84,
+          "y": 204.46,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"e75dbbbf05dead7073b2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":113.89403507596442,\"y\":12.349955610646745,\"z\":0,\"width\":1125.2181778589256,\"height\":83.7052546943835,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Food Data'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#243E36'\"}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"heading\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 83.71,
+          "width": 1125.22,
+          "x": 113.89,
+          "y": 12.35,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "gym",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "e4580b867659144a65e3",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"13613d52c8728bc56c94\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16.466607480862326,\"y\":115.26625236603628,\"z\":8000,\"width\":65.8664299234493,\"height\":57.63312618301814,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"vitamina41784404142617126.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'5bb53056e03842461c42'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 57.63,
+          "width": 65.87,
+          "x": 16.47,
+          "y": 115.27,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"1af1212662b84a6a9a29\",\"layouts\":[{\"id\":0,\"position\":{\"x\":693,\"y\":133,\"width\":546,\"height\":572,\"z\":4000,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Food-All-Data.Protein)\"}],\"X\":[{\"queryRef\":\"Food-All-Data.Caloric Value\",\"active\":true}],\"Tooltips\":[{\"queryRef\":\"Min(Food-All-Data.food)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f1\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f1\"}},\"Property\":\"Protein\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Protein)\",\"NativeReferenceName\":\"Soma de Protein\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f1\"}},\"Property\":\"Caloric Value\"},\"Name\":\"Food-All-Data.Caloric Value\",\"NativeReferenceName\":\"Soma de Caloric Value\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f1\"}},\"Property\":\"food\"}},\"Function\":3},\"Name\":\"Min(Food-All-Data.food)\",\"NativeReferenceName\":\"food\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"showAllDataPoints\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Food-All-Data\"}},\"Property\":\"Caloric Value\"}},\"Function\":0}},\"FillRule\":{\"linearGradient3\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#243E36'\"}},\"value\":{\"Literal\":{\"Value\":\"0D\"}}},\"mid\":{\"color\":{\"Literal\":{\"Value\":\"'#63814A'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"colorByCategory\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'BottomCenter'\"}}}}}],\"zoom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showOnCategoryAxis\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Protein Value'\"}}}}}],\"categoryAxis\":[{\"properties\":{\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Caloric Value'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}},\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Scalar'\"}}},\"invertAxis\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"bubbles\":[{\"properties\":{\"markerShape\":{\"expr\":{\"Literal\":{\"Value\":\"'circle'\"}}},\"bubbleSize\":{\"expr\":{\"Literal\":{\"Value\":\"-15L\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Calories X Proteins'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 572.00,
+          "width": 546.00,
+          "x": 693.00,
+          "y": 133.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"315685637d3cb3170ac5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":113.89403507596442,\"y\":12.349955610646745,\"z\":0,\"width\":1125.2181778589256,\"height\":83.7052546943835,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Food Data'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#243E36'\"}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"heading\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 83.71,
+          "width": 1125.22,
+          "x": 113.89,
+          "y": 12.35,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"3b89ef95895de0ca2b5b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":21.95547664114977,\"y\":30.188780381580933,\"z\":7000,\"width\":57.63312618301814,\"height\":59.00534347309001,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"saude6765817450591831.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'2ee80b933370d704e08a'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 59.01,
+          "width": 57.63,
+          "x": 21.96,
+          "y": 30.19,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"498830707334b368269e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":966.0409722105899,\"y\":19.211042061006047,\"z\":6000,\"width\":222.2992009916414,\"height\":69.9830817936649,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Food-All-Data.food\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"},\"Name\":\"Food-All-Data.food\",\"NativeReferenceName\":\"food\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Food'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"92D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 69.98,
+          "width": 222.30,
+          "x": 966.04,
+          "y": 19.21,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"5d8128c02a003611a913\",\"layouts\":[{\"id\":0,\"position\":{\"x\":97.4274275951021,\"y\":433.62066366270795,\"z\":3000,\"width\":579.0756964103251,\"height\":271.6990234342284,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Food-All-Data.food\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Food-All-Data.Carbohydrates)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"food\"},\"Name\":\"Food-All-Data.food\",\"NativeReferenceName\":\"food\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Carbohydrates\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Carbohydrates)\",\"NativeReferenceName\":\"Soma de Carbohydrates\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Carbohydrates\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#30011E'\"}}}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Carbohydrates'\"}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}],\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Food'\"}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}],\"ribbonBands\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Top Carbohydrates'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#30011E'\"}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 271.70,
+          "width": 579.08,
+          "x": 97.43,
+          "y": 433.62,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"a5f2417f882177666acc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":97.4274275951021,\"y\":133.10507713697046,\"z\":5000,\"width\":579.0756964103251,\"height\":271.6990234342284,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Food-All-Data.food\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Food-All-Data.Fat)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f1\",\"Entity\":\"Food-All-Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f1\"}},\"Property\":\"food\"},\"Name\":\"Food-All-Data.food\",\"NativeReferenceName\":\"food1\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f1\"}},\"Property\":\"Fat\"}},\"Function\":0},\"Name\":\"Sum(Food-All-Data.Fat)\",\"NativeReferenceName\":\"Soma de Fat1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f1\"}},\"Property\":\"Fat\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#f4e285'\"}}}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Fat'\"}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}],\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Food'\"}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}],\"ribbonBands\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Top Fat'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#30011E'\"}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Lucida Sans Unicode'''\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 271.70,
+          "width": 579.08,
+          "x": 97.43,
+          "y": 133.11,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"c3938ff8b002ada2259a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":152.31611919797652,\"y\":21.95547664114977,\"z\":2000,\"width\":252.48798137322234,\"height\":74.09973366388047,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Food Data\",\"textStyle\":{\"fontFamily\":\"Lucida Sans Unicode\",\"fontSize\":\"32pt\",\"color\":\"#30011e\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 74.10,
+          "width": 252.49,
+          "x": 152.32,
+          "y": 21.96,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"c64e244d3b4144348466\",\"layouts\":[{\"id\":0,\"position\":{\"x\":17.83882477093419,\"y\":204.46037622070722,\"z\":9000,\"width\":64.49421263337744,\"height\":64.49421263337744,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"gym4343544882298369.png\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"50D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Outer'\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'BottomLeft'\"}}},\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"15L\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70L\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 64.49,
+          "width": 64.49,
+          "x": 17.84,
+          "y": 204.46,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"cd3f7b7bd74e20609072\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.605521030503024,\"y\":12.349955610646745,\"z\":1000,\"width\":78.21638553409605,\"height\":692.9697314862896,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#8CB369'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"80D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 692.97,
+          "width": 78.22,
+          "x": 9.61,
+          "y": 12.35,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

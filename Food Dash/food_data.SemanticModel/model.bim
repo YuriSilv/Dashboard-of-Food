@@ -1,0 +1,3473 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"FOOD-DATA-GROUP1\",\"FOOD-DATA-GROUP2\",\"FOOD-DATA-GROUP3\",\"FOOD-DATA-GROUP4\",\"FOOD-DATA-GROUP5\",\"Food-All-Data\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.901.0 (24.07)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "FOOD-DATA-GROUP1",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "food",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c3ad8ca4-f365-4bab-b53b-38457cba0c65",
+            "sourceColumn": "food",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Caloric Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8e934564-7a14-4358-92f5-07bfea263b2d",
+            "sourceColumn": "Caloric Value",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Fat",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3d5f82d2-f76e-4fab-be96-1f12b33c90a9",
+            "sourceColumn": "Fat",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Saturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f8e69682-167d-4d37-8262-7f3c66687956",
+            "sourceColumn": "Saturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Monounsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6afff231-bdd2-4c76-951d-80c3d6be81b3",
+            "sourceColumn": "Monounsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Polyunsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "33337024-4a6a-41cf-bd20-4ada1dd12dc3",
+            "sourceColumn": "Polyunsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Carbohydrates",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5f86f065-55c7-4c8f-ac5d-225e9644b907",
+            "sourceColumn": "Carbohydrates",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sugars",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ebfbee95-8714-4588-958f-3c4aa0c89e44",
+            "sourceColumn": "Sugars",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Protein",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7e0eb6bb-b0cf-4527-bd11-2b744de7d2b8",
+            "sourceColumn": "Protein",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Dietary Fiber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "489ab666-2597-4e8b-972f-ed624e7e4911",
+            "sourceColumn": "Dietary Fiber",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cholesterol",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c2396801-e37d-4219-accd-555f3657e7af",
+            "sourceColumn": "Cholesterol",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sodium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c7a58bfc-a519-4b87-8bbe-22ee5630d467",
+            "sourceColumn": "Sodium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Water",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b6d5028a-8383-4868-aa66-79015abb1fa8",
+            "sourceColumn": "Water",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin A",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "56ac6083-6f65-444d-b037-ea11c53fecfe",
+            "sourceColumn": "Vitamin A",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ad5aeae8-7f8a-45c1-b1d0-3cfc7f151451",
+            "sourceColumn": "Vitamin B1",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B11",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9c17b56b-75f6-4aae-a854-2f1f34052293",
+            "sourceColumn": "Vitamin B11",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B12",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2896d736-bd1b-4b36-9d76-5c1f7e4efaa9",
+            "sourceColumn": "Vitamin B12",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "19d4b559-7626-4db7-b0ac-551f4eefcdd5",
+            "sourceColumn": "Vitamin B2",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cc22ef41-da5d-4106-9582-8dc849646907",
+            "sourceColumn": "Vitamin B3",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c1f4c4b2-2cdc-48aa-9100-587b68f701ec",
+            "sourceColumn": "Vitamin B5",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0b466b28-3e0a-4417-931b-9dc424ea6c69",
+            "sourceColumn": "Vitamin B6",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin C",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f29a2ba2-89e5-4df3-b89c-f19c50c13632",
+            "sourceColumn": "Vitamin C",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin D",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9d5c6193-1d2b-4172-b5b2-46cc7288a385",
+            "sourceColumn": "Vitamin D",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin E",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4b0ce630-0361-42ed-af27-a2bef7003227",
+            "sourceColumn": "Vitamin E",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin K",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "473cb6f5-dbb8-476b-9207-9a900b0dca53",
+            "sourceColumn": "Vitamin K",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Calcium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e812461a-7911-45d8-a775-2b21269070b5",
+            "sourceColumn": "Calcium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Copper",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ff842d64-a16a-4822-80f4-5365190dfc58",
+            "sourceColumn": "Copper",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Iron",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3ed94802-ca90-426a-a2f3-b3a7beb48d98",
+            "sourceColumn": "Iron",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Magnesium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5695734d-7ed5-45ec-8568-064d929d072c",
+            "sourceColumn": "Magnesium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Manganese",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a4d7c92f-0836-447b-b1a6-758d2fa53aeb",
+            "sourceColumn": "Manganese",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Phosphorus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e0b00828-2f37-4424-aebc-c3b5dacfb291",
+            "sourceColumn": "Phosphorus",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Potassium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b5798e69-f8f0-40fe-a551-481711027487",
+            "sourceColumn": "Potassium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Selenium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8ac9e11e-745c-4291-97b6-245d7d4b3811",
+            "sourceColumn": "Selenium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Zinc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b4337848-8631-4a21-9ba3-ee109de946ee",
+            "sourceColumn": "Zinc",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Nutrition Density",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f3601286-0aa3-4924-b6b1-06bd2bc8ca69",
+            "sourceColumn": "Nutrition Density",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "5a0e5808-ede8-4ed0-9fcb-3fc2d4df7493",
+        "partitions": [
+          {
+            "name": "FOOD-DATA-GROUP1",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"C:\\Users\\yurid\\Projetos\\Food Dash\\data\\FOOD-DATA-GROUP1.csv\"),[Delimiter=\",\", Columns=37, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"\", Int64.Type}, {\"Unnamed: 0\", Int64.Type}, {\"food\", type text}, {\"Caloric Value\", Int64.Type}, {\"Fat\", Int64.Type}, {\"Saturated Fats\", Int64.Type}, {\"Monounsaturated Fats\", Int64.Type}, {\"Polyunsaturated Fats\", Int64.Type}, {\"Carbohydrates\", Int64.Type}, {\"Sugars\", Int64.Type}, {\"Protein\", Int64.Type}, {\"Dietary Fiber\", Int64.Type}, {\"Cholesterol\", Int64.Type}, {\"Sodium\", Int64.Type}, {\"Water\", Int64.Type}, {\"Vitamin A\", Int64.Type}, {\"Vitamin B1\", Int64.Type}, {\"Vitamin B11\", Int64.Type}, {\"Vitamin B12\", Int64.Type}, {\"Vitamin B2\", Int64.Type}, {\"Vitamin B3\", Int64.Type}, {\"Vitamin B5\", Int64.Type}, {\"Vitamin B6\", Int64.Type}, {\"Vitamin C\", Int64.Type}, {\"Vitamin D\", Int64.Type}, {\"Vitamin E\", Int64.Type}, {\"Vitamin K\", Int64.Type}, {\"Calcium\", Int64.Type}, {\"Copper\", Int64.Type}, {\"Iron\", Int64.Type}, {\"Magnesium\", Int64.Type}, {\"Manganese\", Int64.Type}, {\"Phosphorus\", Int64.Type}, {\"Potassium\", Int64.Type}, {\"Selenium\", Int64.Type}, {\"Zinc\", Int64.Type}, {\"Nutrition Density\", Int64.Type}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Unnamed: 0\", \"\"})",
+                "in",
+                "    #\"Colunas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_c20051a2-72db-4b3a-b990-0de88c79f8ed",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "af68c717-ab3f-4278-aa5f-dbc3696b294a",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "d819e664-8bd2-43ba-b2ef-7734b6078229",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "af465cb0-9581-47f5-bc7e-ecb115df413c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "db14c9d7-74c6-405d-a25b-7f922552714b",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "62074186-976e-40ec-8848-58546ee2809e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "bb675adf-9fa5-4a15-9128-566b5a2dd5a3",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "bf42d64f-6737-4a4f-b213-60f6a48c8ab5",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "6c40aaec-1948-4013-83d8-917ac7ac380a",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "8ec27f72-7ad4-4131-9c3a-17bc7fb5e9d9",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "781cc793-8ec6-4435-b769-9c5563c3ddde",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "721bfce6-ac00-41eb-a326-6709336ec2c8",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "2b1a0a52-5f9c-4806-9848-5712cc123ef1"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "5c7dce9d-0f4b-4d66-b9cf-0a7bbe33a3b7",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_c20051a2-72db-4b3a-b990-0de88c79f8ed",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FOOD-DATA-GROUP2",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "food",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "47d6a242-7b9f-4cb8-b5d1-1bca77b78d0d",
+            "sourceColumn": "food",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Caloric Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7f2efa89-f9bb-4182-afcb-36a6175568cd",
+            "sourceColumn": "Caloric Value",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Fat",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ae25aef2-5082-419f-a5b0-3ce3af345597",
+            "sourceColumn": "Fat",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Saturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "177d3f53-db35-4edb-83b2-d8729aec30c0",
+            "sourceColumn": "Saturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Monounsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2186fdff-5a52-4e36-a6cc-7f158addefaf",
+            "sourceColumn": "Monounsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Polyunsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ec47cb79-142f-4f42-9085-56558a728740",
+            "sourceColumn": "Polyunsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Carbohydrates",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9c9cc94b-4abf-4045-ac22-6fafaff66dc1",
+            "sourceColumn": "Carbohydrates",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sugars",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "183fb928-b222-4f01-8ef2-07d3d20f04bd",
+            "sourceColumn": "Sugars",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Protein",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "688b02ba-c272-4609-845e-814df74c4e34",
+            "sourceColumn": "Protein",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Dietary Fiber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e3b5ce87-7822-4c2a-8ddd-310dd84336e8",
+            "sourceColumn": "Dietary Fiber",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cholesterol",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a71be469-cfa4-4c0c-bb6d-decd66020ec5",
+            "sourceColumn": "Cholesterol",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sodium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "544287c5-9d27-4432-a17d-e1e479464ef5",
+            "sourceColumn": "Sodium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Water",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "90b11427-3bda-422e-be16-c3065a52c01c",
+            "sourceColumn": "Water",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin A",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "176abf06-b342-47af-941c-301648ab742b",
+            "sourceColumn": "Vitamin A",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "665d9e0c-46cc-4208-bc10-2a5ec71502f6",
+            "sourceColumn": "Vitamin B1",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B11",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cef84f5d-65ee-4f44-8053-8767092e34c5",
+            "sourceColumn": "Vitamin B11",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B12",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "701b19c4-8b17-4b7a-9d34-c82b03a0abff",
+            "sourceColumn": "Vitamin B12",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1f4a0653-1b62-4457-bf71-8b0161b4b6a9",
+            "sourceColumn": "Vitamin B2",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a032d9dd-c3b1-42ed-a7a8-ef87ac9d675f",
+            "sourceColumn": "Vitamin B3",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7e6b3758-081f-4439-8534-31b01a5dd441",
+            "sourceColumn": "Vitamin B5",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e9ca8670-50f1-4ef1-9b81-d8e0ab3298bb",
+            "sourceColumn": "Vitamin B6",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin C",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cc01726b-a39d-4e1a-b211-5e705e47d971",
+            "sourceColumn": "Vitamin C",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin D",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "aacd6be8-e0d9-4dc8-bf6f-b80988c80042",
+            "sourceColumn": "Vitamin D",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin E",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "561127c2-13bf-47d0-a080-d6902326e376",
+            "sourceColumn": "Vitamin E",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin K",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "85d0faf1-76de-49e1-a52c-a7fbb7cc709d",
+            "sourceColumn": "Vitamin K",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Calcium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c4b41d33-c2a1-4fa3-bfd6-5249b4236d66",
+            "sourceColumn": "Calcium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Copper",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0f1c7c38-b9d8-4539-93c3-3d11ab38ea46",
+            "sourceColumn": "Copper",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Iron",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b7ec467a-5d3a-4445-acf4-d510bd786b2e",
+            "sourceColumn": "Iron",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Magnesium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8501eccc-5162-4ee5-88ee-8f47c5ffd00a",
+            "sourceColumn": "Magnesium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Manganese",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "67cb98f5-e796-4cea-85bf-37e21f1b6b93",
+            "sourceColumn": "Manganese",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Phosphorus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5b252016-3725-44b0-85f5-99e4d617edf7",
+            "sourceColumn": "Phosphorus",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Potassium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8bebce1a-bd73-4677-9e2c-6d70a3c93a3e",
+            "sourceColumn": "Potassium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Selenium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e9ffbd71-9a42-44e7-9387-169a8b0713c9",
+            "sourceColumn": "Selenium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Zinc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "229fb7bc-2be4-4f48-aaa2-62e80890138c",
+            "sourceColumn": "Zinc",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Nutrition Density",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "26b66ba9-bf34-46ea-ab43-946b249791c2",
+            "sourceColumn": "Nutrition Density",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "8f1dbd5d-0ebf-4bb5-a733-2b8b5ad70d30",
+        "partitions": [
+          {
+            "name": "FOOD-DATA-GROUP2",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"C:\\Users\\yurid\\Projetos\\Food Dash\\data\\FOOD-DATA-GROUP2.csv\"),[Delimiter=\",\", Columns=37, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"\", Int64.Type}, {\"Unnamed: 0\", Int64.Type}, {\"food\", type text}, {\"Caloric Value\", Int64.Type}, {\"Fat\", Int64.Type}, {\"Saturated Fats\", Int64.Type}, {\"Monounsaturated Fats\", Int64.Type}, {\"Polyunsaturated Fats\", Int64.Type}, {\"Carbohydrates\", Int64.Type}, {\"Sugars\", Int64.Type}, {\"Protein\", Int64.Type}, {\"Dietary Fiber\", Int64.Type}, {\"Cholesterol\", Int64.Type}, {\"Sodium\", Int64.Type}, {\"Water\", Int64.Type}, {\"Vitamin A\", Int64.Type}, {\"Vitamin B1\", Int64.Type}, {\"Vitamin B11\", Int64.Type}, {\"Vitamin B12\", Int64.Type}, {\"Vitamin B2\", Int64.Type}, {\"Vitamin B3\", Int64.Type}, {\"Vitamin B5\", Int64.Type}, {\"Vitamin B6\", Int64.Type}, {\"Vitamin C\", Int64.Type}, {\"Vitamin D\", Int64.Type}, {\"Vitamin E\", Int64.Type}, {\"Vitamin K\", Int64.Type}, {\"Calcium\", Int64.Type}, {\"Copper\", Int64.Type}, {\"Iron\", Int64.Type}, {\"Magnesium\", Int64.Type}, {\"Manganese\", Int64.Type}, {\"Phosphorus\", Int64.Type}, {\"Potassium\", Int64.Type}, {\"Selenium\", Int64.Type}, {\"Zinc\", Int64.Type}, {\"Nutrition Density\", Int64.Type}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"\", \"Unnamed: 0\"})",
+                "in",
+                "    #\"Colunas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FOOD-DATA-GROUP3",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "food",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eafcccfe-8708-4d20-b49c-e0f32d7645b1",
+            "sourceColumn": "food",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Caloric Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "15c1704f-6502-43ce-ad45-bce6c58b929f",
+            "sourceColumn": "Caloric Value",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Fat",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1c2cbd18-67dd-4845-bbb3-245d581fe5a2",
+            "sourceColumn": "Fat",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Saturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4b1a7cfd-3e59-4382-bf4b-81594054ea0f",
+            "sourceColumn": "Saturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Monounsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1c375481-b5b3-4677-bddf-150899153f0f",
+            "sourceColumn": "Monounsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Polyunsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "688fef24-4251-4ade-ab80-9d1c4c53e1a1",
+            "sourceColumn": "Polyunsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Carbohydrates",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "128dbdc9-c4e0-4bc4-9ead-da4f677aef1f",
+            "sourceColumn": "Carbohydrates",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sugars",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "813a01ad-fc48-4248-bf81-24bf7357b104",
+            "sourceColumn": "Sugars",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Protein",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9fa0ec0d-62b0-4565-8591-a36da7809290",
+            "sourceColumn": "Protein",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Dietary Fiber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a9205f02-26b0-4a66-bdd4-196173a81f55",
+            "sourceColumn": "Dietary Fiber",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cholesterol",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6a4913b4-15ad-42ce-b7a3-eebf60eb5bff",
+            "sourceColumn": "Cholesterol",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sodium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f46e621a-b6fd-4d74-ae9b-e34f01a7fce4",
+            "sourceColumn": "Sodium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Water",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "80a72a36-1c02-4c49-a813-d16b1bff88d3",
+            "sourceColumn": "Water",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin A",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6b57e963-9fdf-4655-9ab0-a23654d7b769",
+            "sourceColumn": "Vitamin A",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a36d8795-94c2-4078-85eb-260366fbf524",
+            "sourceColumn": "Vitamin B1",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B11",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9eb04ebf-1d43-4df9-94e1-5039d574fc74",
+            "sourceColumn": "Vitamin B11",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B12",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1fcd2f4a-34f6-4235-9519-e21a9393f310",
+            "sourceColumn": "Vitamin B12",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2ffc59fb-63f7-4cf3-8b69-42057ce2d7d1",
+            "sourceColumn": "Vitamin B2",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4c29a571-07f1-4cb8-86bb-486f94a2d78e",
+            "sourceColumn": "Vitamin B3",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5665870f-0812-446e-b4a4-344c90c7ca08",
+            "sourceColumn": "Vitamin B5",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "083f219a-7ff9-4e57-9732-ce1d50e84a04",
+            "sourceColumn": "Vitamin B6",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin C",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ec1a8824-0ffc-4759-9558-b2cd400552b6",
+            "sourceColumn": "Vitamin C",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin D",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "35a97c45-37c6-426f-806d-7a8dc732e7ff",
+            "sourceColumn": "Vitamin D",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin E",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ab916da8-bf12-4dab-9f64-48e3996b1833",
+            "sourceColumn": "Vitamin E",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin K",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "183acd58-a501-4a04-a356-655cea7d3966",
+            "sourceColumn": "Vitamin K",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Calcium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3e170b12-c0ac-493f-a3c6-1d7d73a5b1a2",
+            "sourceColumn": "Calcium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Copper",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ff26a59c-c6ff-4fa6-9bf2-26439c030a4e",
+            "sourceColumn": "Copper",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Iron",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8e26795a-5016-4b4f-bc47-33cdab254c02",
+            "sourceColumn": "Iron",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Magnesium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "39cc494d-49a6-45a5-ae41-21f4546e3b47",
+            "sourceColumn": "Magnesium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Manganese",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "686fbcc3-2841-4bfd-b3c9-b8c113f67779",
+            "sourceColumn": "Manganese",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Phosphorus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "694293c7-6928-4fe6-bf84-829eb1f042b5",
+            "sourceColumn": "Phosphorus",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Potassium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "88e6e317-4313-4582-8962-e7cef796a7f4",
+            "sourceColumn": "Potassium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Selenium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "de23370a-ef9b-43d0-9d9a-4a9b52d59758",
+            "sourceColumn": "Selenium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Zinc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "763cb170-925b-4f8e-a7b2-372ba6c99e07",
+            "sourceColumn": "Zinc",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Nutrition Density",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c7f6b4d3-1030-4f62-99b8-7769635fad78",
+            "sourceColumn": "Nutrition Density",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "879e34c7-bd1b-4d7a-acdd-a08c2bdfac69",
+        "partitions": [
+          {
+            "name": "FOOD-DATA-GROUP3",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"C:\\Users\\yurid\\Projetos\\Food Dash\\data\\FOOD-DATA-GROUP3.csv\"),[Delimiter=\",\", Columns=37, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"\", Int64.Type}, {\"Unnamed: 0\", Int64.Type}, {\"food\", type text}, {\"Caloric Value\", Int64.Type}, {\"Fat\", Int64.Type}, {\"Saturated Fats\", Int64.Type}, {\"Monounsaturated Fats\", Int64.Type}, {\"Polyunsaturated Fats\", Int64.Type}, {\"Carbohydrates\", Int64.Type}, {\"Sugars\", Int64.Type}, {\"Protein\", Int64.Type}, {\"Dietary Fiber\", Int64.Type}, {\"Cholesterol\", Int64.Type}, {\"Sodium\", Int64.Type}, {\"Water\", Int64.Type}, {\"Vitamin A\", Int64.Type}, {\"Vitamin B1\", Int64.Type}, {\"Vitamin B11\", Int64.Type}, {\"Vitamin B12\", Int64.Type}, {\"Vitamin B2\", Int64.Type}, {\"Vitamin B3\", Int64.Type}, {\"Vitamin B5\", Int64.Type}, {\"Vitamin B6\", Int64.Type}, {\"Vitamin C\", Int64.Type}, {\"Vitamin D\", Int64.Type}, {\"Vitamin E\", Int64.Type}, {\"Vitamin K\", Int64.Type}, {\"Calcium\", Int64.Type}, {\"Copper\", Int64.Type}, {\"Iron\", Int64.Type}, {\"Magnesium\", Int64.Type}, {\"Manganese\", Int64.Type}, {\"Phosphorus\", Int64.Type}, {\"Potassium\", Int64.Type}, {\"Selenium\", Int64.Type}, {\"Zinc\", Int64.Type}, {\"Nutrition Density\", Int64.Type}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"\", \"Unnamed: 0\"})",
+                "in",
+                "    #\"Colunas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FOOD-DATA-GROUP4",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "food",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "73e27ff5-9fe4-4490-9356-88d17fbb2f0b",
+            "sourceColumn": "food",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Caloric Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "587ebd9d-b84c-4d9a-a813-2c0ceefa0a7f",
+            "sourceColumn": "Caloric Value",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Fat",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ef590450-cb60-49b2-bae5-44ad4b863ce2",
+            "sourceColumn": "Fat",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Saturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "03790062-c6a2-4d3c-8064-d024b2430693",
+            "sourceColumn": "Saturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Monounsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5dcf11b5-065d-4314-b393-9314c13b01a0",
+            "sourceColumn": "Monounsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Polyunsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c966bed8-318a-467e-b6bf-40f7a5482609",
+            "sourceColumn": "Polyunsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Carbohydrates",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4163f027-b366-497e-8288-c2568cebdf3a",
+            "sourceColumn": "Carbohydrates",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sugars",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d08ce4c1-22e6-4a03-a626-9b97331a2054",
+            "sourceColumn": "Sugars",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Protein",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "13936fb4-34d0-4eae-90b8-451e50dc3dd0",
+            "sourceColumn": "Protein",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Dietary Fiber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5d0a6afa-689a-4e64-b6c3-9c24b4c89e07",
+            "sourceColumn": "Dietary Fiber",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cholesterol",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "383a19a4-4869-42d7-8bd6-0222fb398d21",
+            "sourceColumn": "Cholesterol",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sodium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fb399a1f-50b4-43bf-bda2-52961ccc7f3a",
+            "sourceColumn": "Sodium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Water",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d0ac223c-343a-4440-9a0f-7ea32ae530cb",
+            "sourceColumn": "Water",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin A",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "79b09410-daf9-475e-8ba9-e965b5b1ff10",
+            "sourceColumn": "Vitamin A",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "44115215-98f7-43aa-8bd7-7235eec40fa9",
+            "sourceColumn": "Vitamin B1",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B11",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f800dc0c-7096-483f-a317-32d5d8135cd0",
+            "sourceColumn": "Vitamin B11",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B12",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "eed216f6-4eda-4db7-af7b-ddc4d0568d43",
+            "sourceColumn": "Vitamin B12",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "62356886-a291-4394-95d6-16dd93f06af0",
+            "sourceColumn": "Vitamin B2",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "52222432-13cf-4554-968b-23c4167dd441",
+            "sourceColumn": "Vitamin B3",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1c7badc5-3bce-4445-a95e-6c4aae67ff4d",
+            "sourceColumn": "Vitamin B5",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e392b9bc-ced1-41a9-b277-45348bfc5faf",
+            "sourceColumn": "Vitamin B6",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin C",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "590183b8-6ef5-4b8f-8b73-7dc28fadfe22",
+            "sourceColumn": "Vitamin C",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin D",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "91d99c75-5bfc-4621-9881-d80fa721460a",
+            "sourceColumn": "Vitamin D",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin E",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a00a61e2-ccf7-404d-8dae-7225e5ef9645",
+            "sourceColumn": "Vitamin E",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin K",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ee53c664-de26-41b0-9f9c-f6811c2c64b1",
+            "sourceColumn": "Vitamin K",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Calcium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fbc1f070-482c-446a-afcb-1e76da91509f",
+            "sourceColumn": "Calcium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Copper",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "db8d77c9-d534-478d-96f3-b3f7cc1862fe",
+            "sourceColumn": "Copper",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Iron",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e6af6193-ff2c-4314-9455-c27155ffc1c1",
+            "sourceColumn": "Iron",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Magnesium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4ec2cf5f-c624-41dd-94b3-16e27f12c749",
+            "sourceColumn": "Magnesium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Manganese",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9e6a915c-99d1-473f-bdc2-0e6ab24d136d",
+            "sourceColumn": "Manganese",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Phosphorus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c5ad2f59-6f46-4ff6-a9ac-e75d0b6bc2fe",
+            "sourceColumn": "Phosphorus",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Potassium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0755ca95-e6ee-4b7f-8242-4be107ed0fce",
+            "sourceColumn": "Potassium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Selenium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0985ba2f-f341-4965-abee-eb51f90a150a",
+            "sourceColumn": "Selenium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Zinc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6dc00341-9afe-4016-8920-4bb6bd3b4025",
+            "sourceColumn": "Zinc",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Nutrition Density",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a84231f5-e7df-4c9a-a353-0e3399935d88",
+            "sourceColumn": "Nutrition Density",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "42e7413e-fa20-4f79-b48a-46c40f4c6cc0",
+        "partitions": [
+          {
+            "name": "FOOD-DATA-GROUP4",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"C:\\Users\\yurid\\Projetos\\Food Dash\\data\\FOOD-DATA-GROUP4.csv\"),[Delimiter=\",\", Columns=37, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"\", Int64.Type}, {\"Unnamed: 0\", Int64.Type}, {\"food\", type text}, {\"Caloric Value\", Int64.Type}, {\"Fat\", Int64.Type}, {\"Saturated Fats\", Int64.Type}, {\"Monounsaturated Fats\", Int64.Type}, {\"Polyunsaturated Fats\", Int64.Type}, {\"Carbohydrates\", Int64.Type}, {\"Sugars\", Int64.Type}, {\"Protein\", Int64.Type}, {\"Dietary Fiber\", Int64.Type}, {\"Cholesterol\", Int64.Type}, {\"Sodium\", Int64.Type}, {\"Water\", Int64.Type}, {\"Vitamin A\", Int64.Type}, {\"Vitamin B1\", Int64.Type}, {\"Vitamin B11\", Int64.Type}, {\"Vitamin B12\", Int64.Type}, {\"Vitamin B2\", Int64.Type}, {\"Vitamin B3\", Int64.Type}, {\"Vitamin B5\", Int64.Type}, {\"Vitamin B6\", Int64.Type}, {\"Vitamin C\", Int64.Type}, {\"Vitamin D\", Int64.Type}, {\"Vitamin E\", Int64.Type}, {\"Vitamin K\", Int64.Type}, {\"Calcium\", Int64.Type}, {\"Copper\", Int64.Type}, {\"Iron\", Int64.Type}, {\"Magnesium\", Int64.Type}, {\"Manganese\", Int64.Type}, {\"Phosphorus\", Int64.Type}, {\"Potassium\", Int64.Type}, {\"Selenium\", Int64.Type}, {\"Zinc\", Int64.Type}, {\"Nutrition Density\", Int64.Type}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"\", \"Unnamed: 0\"})",
+                "in",
+                "    #\"Colunas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FOOD-DATA-GROUP5",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "food",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4a29e135-653e-4a51-b618-de9378106c50",
+            "sourceColumn": "food",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Caloric Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bf3a7e4a-9fb9-48fe-a14a-3dc71724546a",
+            "sourceColumn": "Caloric Value",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Fat",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "19ad4e6f-71ea-46d3-8320-598be392ea25",
+            "sourceColumn": "Fat",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Saturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "13e9a7eb-15a4-4f42-a973-e101b0d7d763",
+            "sourceColumn": "Saturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Monounsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "77af338d-3bc8-4125-a240-3e684999e3f2",
+            "sourceColumn": "Monounsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Polyunsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "67894b50-d389-40b3-aae5-ceb65f40bd46",
+            "sourceColumn": "Polyunsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Carbohydrates",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "aa8b9213-9884-4a20-995a-2d45e7e0b9d6",
+            "sourceColumn": "Carbohydrates",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sugars",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "be8e95ec-0344-4b0f-a4b1-8467bd8e357c",
+            "sourceColumn": "Sugars",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Protein",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c30de5ab-6602-4873-a022-4da863b6cf1e",
+            "sourceColumn": "Protein",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Dietary Fiber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "25a73cc8-37cd-421e-9bc6-7efcda24b2ee",
+            "sourceColumn": "Dietary Fiber",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cholesterol",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5f4e8f21-6fa2-4ecf-89f1-c930c1a9a214",
+            "sourceColumn": "Cholesterol",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sodium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1c20248e-92ef-4051-af28-e46e0d9e6808",
+            "sourceColumn": "Sodium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Water",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "89bc8a93-ac8e-4dac-bc6f-c5c15e7bd315",
+            "sourceColumn": "Water",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin A",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "abd3efba-b589-40bf-a500-971b3c270458",
+            "sourceColumn": "Vitamin A",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "efc459dc-d688-4f6b-96d3-340dffb293e8",
+            "sourceColumn": "Vitamin B1",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B11",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6170ed55-8f06-463f-9fbd-cde93c1483d6",
+            "sourceColumn": "Vitamin B11",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B12",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fd0016fc-9c19-4a08-b1e9-178a52dcdb47",
+            "sourceColumn": "Vitamin B12",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "81780ee7-d307-4a31-99ab-226e92323f1b",
+            "sourceColumn": "Vitamin B2",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b4678466-fd8b-45c3-b607-a444c4855820",
+            "sourceColumn": "Vitamin B3",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "031984c3-4e99-4f92-9529-b3abcb60b97b",
+            "sourceColumn": "Vitamin B5",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0e6b0fa9-0bba-47bb-a5e9-f1fd39b60381",
+            "sourceColumn": "Vitamin B6",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin C",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b4c9980e-f8a3-4dc5-a555-653e21678163",
+            "sourceColumn": "Vitamin C",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin D",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "65d0c09e-c014-43b9-924f-2b877f90ddc5",
+            "sourceColumn": "Vitamin D",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin E",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1763d074-6200-4f5f-a0aa-d3e1f41bb4b8",
+            "sourceColumn": "Vitamin E",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin K",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "669e10b8-f1f1-401a-9958-6b235d3f80b9",
+            "sourceColumn": "Vitamin K",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Calcium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "872d15e4-cbf3-4dd7-8cbf-13bb4d24e909",
+            "sourceColumn": "Calcium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Copper",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "dd07024e-0c20-4725-b1ae-a000fbb479e0",
+            "sourceColumn": "Copper",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Iron",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "31bde726-f2a5-409c-b980-76e02e8b900d",
+            "sourceColumn": "Iron",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Magnesium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "134bc2fc-3c37-4f97-bf30-3aeefb0f0091",
+            "sourceColumn": "Magnesium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Manganese",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "138f35ff-4009-4526-8339-d4381d5b2709",
+            "sourceColumn": "Manganese",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Phosphorus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1a242a85-6c7b-4cb4-a983-e3f325a6109d",
+            "sourceColumn": "Phosphorus",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Potassium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a4623555-c37a-48a1-93a5-c2e2e2350718",
+            "sourceColumn": "Potassium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Selenium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f0db5ad7-e6fa-40d5-bbbc-873f7b7d12c9",
+            "sourceColumn": "Selenium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Zinc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "766997da-d9b5-4f68-bd66-ea2f604b244e",
+            "sourceColumn": "Zinc",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Nutrition Density",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a160faa6-0e3e-4ec3-905d-e7d53df7d224",
+            "sourceColumn": "Nutrition Density",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "ca713733-7923-412c-88d5-41fd844adcd2",
+        "partitions": [
+          {
+            "name": "FOOD-DATA-GROUP5",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"C:\\Users\\yurid\\Projetos\\Food Dash\\data\\FOOD-DATA-GROUP5.csv\"),[Delimiter=\",\", Columns=37, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"\", Int64.Type}, {\"Unnamed: 0\", Int64.Type}, {\"food\", type text}, {\"Caloric Value\", Int64.Type}, {\"Fat\", Int64.Type}, {\"Saturated Fats\", Int64.Type}, {\"Monounsaturated Fats\", Int64.Type}, {\"Polyunsaturated Fats\", Int64.Type}, {\"Carbohydrates\", Int64.Type}, {\"Sugars\", Int64.Type}, {\"Protein\", Int64.Type}, {\"Dietary Fiber\", Int64.Type}, {\"Cholesterol\", Int64.Type}, {\"Sodium\", Int64.Type}, {\"Water\", Int64.Type}, {\"Vitamin A\", Int64.Type}, {\"Vitamin B1\", Int64.Type}, {\"Vitamin B11\", Int64.Type}, {\"Vitamin B12\", Int64.Type}, {\"Vitamin B2\", Int64.Type}, {\"Vitamin B3\", Int64.Type}, {\"Vitamin B5\", Int64.Type}, {\"Vitamin B6\", Int64.Type}, {\"Vitamin C\", Int64.Type}, {\"Vitamin D\", Int64.Type}, {\"Vitamin E\", Int64.Type}, {\"Vitamin K\", Int64.Type}, {\"Calcium\", Int64.Type}, {\"Copper\", Int64.Type}, {\"Iron\", Int64.Type}, {\"Magnesium\", Int64.Type}, {\"Manganese\", Int64.Type}, {\"Phosphorus\", Int64.Type}, {\"Potassium\", Int64.Type}, {\"Selenium\", Int64.Type}, {\"Zinc\", Int64.Type}, {\"Nutrition Density\", Int64.Type}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"\", \"Unnamed: 0\"})",
+                "in",
+                "    #\"Colunas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Food-All-Data",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "food",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "957fb297-7d14-4ba5-b290-3e6383d1def3",
+            "sourceColumn": "food",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Caloric Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c86dd5ae-1647-4739-8168-b5ce13a2fdfc",
+            "sourceColumn": "Caloric Value",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Fat",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c68c9c7f-5f18-4323-ad1b-6f16eb9106a9",
+            "sourceColumn": "Fat",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Saturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1d3ecb6f-91df-43f5-b9bb-cbed61ad1aed",
+            "sourceColumn": "Saturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Monounsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "863945bb-e6a4-496d-a13c-817ef4aa94d7",
+            "sourceColumn": "Monounsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Polyunsaturated Fats",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ac1bb01d-68b4-4ca3-bc65-66a2a9374928",
+            "sourceColumn": "Polyunsaturated Fats",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Carbohydrates",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ed83e3df-9587-4ca9-9130-23b1a781d939",
+            "sourceColumn": "Carbohydrates",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sugars",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c7011d53-92a6-4da5-8ae3-02eb41a1c735",
+            "sourceColumn": "Sugars",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Protein",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b2626635-631a-48e1-b2a4-8d3680ac57c6",
+            "sourceColumn": "Protein",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Dietary Fiber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "194fa486-bb47-4ea8-81da-894cae2d53e3",
+            "sourceColumn": "Dietary Fiber",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cholesterol",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cecd6549-082c-407a-971b-e1e62220cd2e",
+            "sourceColumn": "Cholesterol",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sodium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3c1af31c-94ee-4dcd-95e3-7a428b30725c",
+            "sourceColumn": "Sodium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Water",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e254fffe-2140-4853-b0e1-9f788811ccbe",
+            "sourceColumn": "Water",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin A",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f8d644c7-0388-4fc5-b42b-f3a18d760659",
+            "sourceColumn": "Vitamin A",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9c56e2aa-d7bf-45bc-bc00-0e7b547f1418",
+            "sourceColumn": "Vitamin B1",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B11",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "416518ad-96d1-4e37-a6a6-5a54312efb47",
+            "sourceColumn": "Vitamin B11",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B12",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "349aa5fa-0512-4360-b647-1c699980afca",
+            "sourceColumn": "Vitamin B12",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e26cc135-33f7-4341-b9df-9d189677ca65",
+            "sourceColumn": "Vitamin B2",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "eea2f9d9-6904-4c43-a726-7f53ac9c3edf",
+            "sourceColumn": "Vitamin B3",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6f1f42ca-0cc9-4ff3-8d8f-60e1ee12a1bb",
+            "sourceColumn": "Vitamin B5",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin B6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1b6997db-071e-44f6-9554-b1f118530189",
+            "sourceColumn": "Vitamin B6",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin C",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0c22a339-6562-47dc-99f6-e633fe0f8880",
+            "sourceColumn": "Vitamin C",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin D",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "47e6e364-00ba-4098-9fb8-22821311a448",
+            "sourceColumn": "Vitamin D",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin E",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d2025add-7951-48d1-a38e-ecac60a65b35",
+            "sourceColumn": "Vitamin E",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitamin K",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a3d85f02-4cbb-4b1a-9119-011887382fed",
+            "sourceColumn": "Vitamin K",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Calcium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "da43e775-0d91-4e1c-b4aa-ae969f8ee227",
+            "sourceColumn": "Calcium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Copper",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3a877745-a38a-4b75-8c79-15718b5f6f0e",
+            "sourceColumn": "Copper",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Iron",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0bdd9712-c8bc-41b1-9236-ede4a0e19c02",
+            "sourceColumn": "Iron",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Magnesium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1bf8c889-493d-4173-b95d-0b14d73aafea",
+            "sourceColumn": "Magnesium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Manganese",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "51a3d5bb-d37d-4165-9183-fa74ea350237",
+            "sourceColumn": "Manganese",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Phosphorus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "74ed13d1-841c-4da5-b763-bc1c4ac2a2c5",
+            "sourceColumn": "Phosphorus",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Potassium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "822f1199-68e5-4c9d-a12e-02db7d000983",
+            "sourceColumn": "Potassium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Selenium",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c5b4eea6-ac5d-4c1f-ad55-30beb5286eb8",
+            "sourceColumn": "Selenium",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Zinc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ffb63fea-f09c-4a29-b137-7745e1780fb6",
+            "sourceColumn": "Zinc",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Nutrition Density",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "76e73a3b-88ff-4c1d-86b4-78e2b0561d82",
+            "sourceColumn": "Nutrition Density",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "6fd74652-f93e-495b-9471-439db0670fdd",
+        "measures": [
+          {
+            "name": "Vitamins_types",
+            "expression": [
+              "",
+              "SWITCH(",
+              "    SELECTEDVALUE((Col_names[ColunaNome])),",
+              "    \"Vitamin A\", MAX('Food-All-Data'[Vitamin A]),",
+              "    \"Vitamin B1\", MAX('Food-All-Data'[Vitamin B1]),",
+              "    \"Vitamin B11\", MAX('Food-All-Data'[Vitamin B11]),",
+              "    \"Vitamin B12\", MAX('Food-All-Data'[Vitamin B12]),",
+              "    \"Vitamin B2\", MAX('Food-All-Data'[Vitamin B2]),",
+              "    \"Vitamin B3\", MAX('Food-All-Data'[Vitamin B3]),",
+              "    \"Vitamin B5\", MAX('Food-All-Data'[Vitamin B5]),",
+              "    \"Vitamin B6\", MAX('Food-All-Data'[Vitamin B6]),",
+              "    \"Vitamin C\", MAX('Food-All-Data'[Vitamin C]),",
+              "    \"Vitamin D\", MAX('Food-All-Data'[Vitamin D]),",
+              "    \"Vitamin E\", MAX('Food-All-Data'[Vitamin E]),",
+              "    \"Vitamin K\", MAX('Food-All-Data'[Vitamin K]),",
+              "    MAX('Food-All-Data'[Vitamin A])",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "a929491d-ee8d-43f0-9625-aa8f23c8fe26"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Food-All-Data",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.Combine({#\"FOOD-DATA-GROUP1\", #\"FOOD-DATA-GROUP2\", #\"FOOD-DATA-GROUP3\", #\"FOOD-DATA-GROUP4\", #\"FOOD-DATA-GROUP5\"}),",
+                "    #\"Linhas Filtradas\" = Table.SelectRows(Fonte, each [food] <> null and [food] <> \"\")",
+                "in",
+                "    #\"Linhas Filtradas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Col_names",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "b3fc4ec12f234dcc9d883df68964e49d"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ColunaNome",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "eb41af6b-6947-4478-8031-973be4b75ade",
+            "sourceColumn": "[ColunaNome]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "31fa76d7-ebdc-4270-a212-8bf8214a7a70",
+        "partitions": [
+          {
+            "name": "Col_names",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "DATATABLE(",
+                "    \"ColunaNome\", STRING,",
+                "    {",
+                "        {\"Vitamin A\"},",
+                "        {\"Vitamin B1\"},",
+                "        {\"Vitamin B11\"},",
+                "        {\"Vitamin B12\"},",
+                "        {\"Vitamin B2\"},",
+                "        {\"Vitamin B3\"},",
+                "        {\"Vitamin B5\"},",
+                "        {\"Vitamin B6\"},",
+                "        {\"Vitamin C\"},",
+                "        {\"Vitamin D\"},",
+                "        {\"Vitamin E\"},",
+                "        {\"Vitamin K\"}",
+                "    }",
+                ")"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
