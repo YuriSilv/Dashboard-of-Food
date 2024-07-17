@@ -15,3 +15,9 @@ Dasboard with data of foods
 
 <h3>Gym</h3>
 <img src="gym_dash.png" alt="Gym View">
+
+<h3>Vitamins</h3>
+<img src="vitamin_dash.png" alt="Vitamins View">
+
+<h3>Health</h3>
+<img src="health_dash.png" alt="Health View">
