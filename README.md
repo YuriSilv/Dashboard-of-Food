@@ -14,3 +14,4 @@ Dasboard with data of foods
 <h2>Views</h2>
 
 <h3>Gym</h3>
+<img src="gym_dash" alt="Gym View">
